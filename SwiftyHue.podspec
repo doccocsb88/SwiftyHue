@@ -54,7 +54,6 @@ Pod::Spec.new do |s|
     bridgeservices.tvos.deployment_target = '9.0'
     bridgeservices.osx.deployment_target = '10.11'
 
-    bridgeservices.dependency 'Alamofire', '4.8.0'
     bridgeservices.dependency 'Gloss', '3.1.0'
     bridgeservices.dependency 'CocoaAsyncSocket', '7.6.3'
 
